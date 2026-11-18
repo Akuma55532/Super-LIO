@@ -39,6 +39,6 @@ def generate_launch_description():
     ld = LaunchDescription()
     ld.add_action(declare_rviz_arg)
     ld.add_action(super_lio_node)
-    ld.add_action(rviz2_node)
+    # ld.add_action(rviz2_node)
 
     return ld

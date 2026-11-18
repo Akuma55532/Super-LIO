@@ -62,6 +62,7 @@ sudo apt install libgoogle-glog-dev libtbb-dev ros-humble-pcl-ros
 ```bash
 git clone https://github.com/Liansheng-Wang/Super-LIO.git
 cd Super-LIO
+source ../ws_livox/install/setup.bash # 编译superlio之前需要source一下livox_ros_driver2的工作空间
 colcon build
 
 source install/setup.bash
