@@ -8,7 +8,7 @@
     lio.map.save_interval: 500
 
     lio.ros.lidar_topic: "/livox/lidar"
-    lio.ros.imu_topic: "/livox/imu"
+    lio.ros.imu_topic: "/fcu_bridge_001/imu_global_001"
 
     lio.sensor.lidar_type: 1
     lio.sensor.blind: 2.0
